@@ -1,0 +1,5 @@
+D:\myUnrealProjects\MichaelsPluginTest\Source\MichaelsPluginTest\MichaelsPluginTest.Build.cs
+D:\myUnrealProjects\MichaelsPluginTest\Plugins\BatchRenderer\Source\BatchRenderer\BatchRenderer.Build.cs
+D:\myUnrealProjects\MichaelsPluginTest\Plugins\XMLAsset\Source\XMLAsset\XMLAsset.Build.cs
+D:\myUnrealProjects\MichaelsPluginTest\Source\MichaelsPluginTest.Target.cs
+D:\myUnrealProjects\MichaelsPluginTest\Source\MichaelsPluginTestEditor.Target.cs

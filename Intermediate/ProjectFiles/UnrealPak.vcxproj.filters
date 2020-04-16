@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
+		<None Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{8202C9DA-C205-4152-A6EC-CAE6E9168C41}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Private\KeyGenerator.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Private\Primes.inl">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Private\SignedArchiveWriter.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Private\UnrealPak.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{5EB26CC0-BF3D-49A8-B58B-00AE3F676057}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Resources\PCLaunch.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<None Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\UnrealPak\Resources\UnrealPak.ico">
+			<Filter>Resources</Filter>
+		</None >
+	</ItemGroup>
+</Project>

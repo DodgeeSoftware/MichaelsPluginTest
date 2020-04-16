@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{2402DFAD-F431-430F-8549-FCA6CBF5938F}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>BlankProgram</RootNamespace>
+		<PlatformToolset>v140</PlatformToolset>
+		<MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+		<TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram Win32 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram Win32 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram Win32 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\Win32\BlankProgram-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram Win64 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram Win64 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram Win64 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\Win64\BlankProgram-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram Mac Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram Mac Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram Mac Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\Mac\BlankProgram-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram HTML5 Debug -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram HTML5 Debug -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram HTML5 Debug -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\HTML5\BlankProgram-HTML5-Debug.js</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram Win32 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram Win32 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram Win32 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\Win32\BlankProgram.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram Win64 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram Win64 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram Win64 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\Win64\BlankProgram.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram Mac Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram Mac Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram Mac Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\Mac\BlankProgram</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Build.bat BlankProgram HTML5 Development -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Rebuild.bat BlankProgram HTML5 Development -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\UnrealEngine-4.19\Engine\Build\BatchFiles\Clean.bat BlankProgram HTML5 Development -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\UnrealEngine-4.19\Engine\Binaries\HTML5\BlankProgram.js</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
+		<None Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
+		<ClCompile Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp" />
+		<ClInclude Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h" />
+		<None Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\BlankProgram\Resources\Windows\BlankProgram.ico" />
+		<ResourceCompile Include="..\..\..\..\UnrealEngine-4.19\Engine\Source\Programs\BlankProgram\Resources\Windows\Resource.rc" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;ENABLE_PGO_PROFILE=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=0;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=0;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;PROJECT_COPYRIGHT_STRING=Fill out your copyright notice in the Description page of Project Settings.;PROJECT_PRODUCT_NAME=UE4Game;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="BlankProgram-BlankProgram.lib";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;BLANKPROGRAM_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;APPLICATIONCORE_API=;RHI_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=0;PROJECTS_API=;JSON_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\UnrealEngine-4.19\Engine\Source;C:\UnrealEngine-4.19\Engine\Source\Runtime\Launch\Private;C:\UnrealEngine-4.19\Engine\Source\Runtime\Launch\Public;C:\UnrealEngine-4.19\Engine\Intermediate\Build\Win64\BlankProgram\Inc\BlankProgram;C:\UnrealEngine-4.19\Engine\Source\Programs\BlankProgram;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Internationalization;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Async;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Concurrency;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Containers;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Delegates;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\HAL;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Logging;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Math;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Misc;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Modules;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Serialization;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Stats;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Templates;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\UObject;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core\Public\Windows;C:\UnrealEngine-4.19\Engine\Source\Runtime\Core;C:\UnrealEngine-4.19\Engine\Source\Runtime\ApplicationCore\Public;C:\UnrealEngine-4.19\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\UnrealEngine-4.19\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\UnrealEngine-4.19\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\UnrealEngine-4.19\Engine\Intermediate\Build\Win64\BlankProgram\Inc\ApplicationCore;C:\UnrealEngine-4.19\Engine\Source\Runtime\ApplicationCore;C:\UnrealEngine-4.19\Engine\Source\Runtime\RHI\Public;C:\UnrealEngine-4.19\Engine\Intermediate\Build\Win64\BlankProgram\Inc\RHI;C:\UnrealEngine-4.19\Engine\Source\Runtime\RHI;C:\UnrealEngine-4.19\Engine\Source\Runtime\Projects\Public;C:\UnrealEngine-4.19\Engine\Source\Runtime\Projects\Public\Interfaces;C:\UnrealEngine-4.19\Engine\Intermediate\Build\Win64\BlankProgram\Inc\Projects;C:\UnrealEngine-4.19\Engine\Source\Runtime\Projects;C:\UnrealEngine-4.19\Engine\Source\Runtime\Json\Public;C:\UnrealEngine-4.19\Engine\Source\Runtime\Json\Public\Dom;C:\UnrealEngine-4.19\Engine\Source\Runtime\Json\Public\Policies;C:\UnrealEngine-4.19\Engine\Source\Runtime\Json\Public\Serialization;C:\UnrealEngine-4.19\Engine\Intermediate\Build\Win64\BlankProgram\Inc\Json;C:\UnrealEngine-4.19\Engine\Source\Runtime\Json;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

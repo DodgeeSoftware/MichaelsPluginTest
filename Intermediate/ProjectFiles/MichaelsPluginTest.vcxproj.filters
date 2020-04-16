@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MichaelsPluginTest.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{EC54C4CA-89B3-4F6D-BE71-F14B4A08544F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MichaelsPluginTest.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MichaelsPluginTestEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{20D38BB9-D8AB-4EE8-8CC3-BF0FFA89EDBF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{A8D83598-7AE0-45CA-9882-A841FB04FB77}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\BatchRenderer">
+			<UniqueIdentifier>{560398C8-AA27-4D4F-8653-D583052549C4}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\BatchRenderer\Source">
+			<UniqueIdentifier>{2D2560B4-8A89-4208-A2F8-48F2DF42D200}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\BatchRenderer\Source\BatchRenderer">
+			<UniqueIdentifier>{E157059B-98CD-425A-B30D-14DA581CF20A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\BatchRenderer\Source\BatchRenderer\BatchRenderer.Build.cs">
+			<Filter>Plugins\BatchRenderer\Source\BatchRenderer</Filter>
+		</None >
+		<Filter Include="Plugins\BatchRenderer\Source\BatchRenderer\Private">
+			<UniqueIdentifier>{939D8E9E-FDC8-4EBD-9C6C-DB134CA4CAEA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\BatchRenderer\Source\BatchRenderer\Private\BatchRenderer.cpp">
+			<Filter>Plugins\BatchRenderer\Source\BatchRenderer\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\BatchRenderer\Source\BatchRenderer\Private\BatchRendererCommands.cpp">
+			<Filter>Plugins\BatchRenderer\Source\BatchRenderer\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\BatchRenderer\Source\BatchRenderer\Private\BatchRendererStyle.cpp">
+			<Filter>Plugins\BatchRenderer\Source\BatchRenderer\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\BatchRenderer\Source\BatchRenderer\Public">
+			<UniqueIdentifier>{EF9B6925-285C-4740-84B9-A619713DC9E3}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\BatchRenderer\Source\BatchRenderer\Public\BatchRenderer.h">
+			<Filter>Plugins\BatchRenderer\Source\BatchRenderer\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\BatchRenderer\Source\BatchRenderer\Public\BatchRendererCommands.h">
+			<Filter>Plugins\BatchRenderer\Source\BatchRenderer\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\BatchRenderer\Source\BatchRenderer\Public\BatchRendererStyle.h">
+			<Filter>Plugins\BatchRenderer\Source\BatchRenderer\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\BatchRenderer\BatchRenderer.uplugin">
+			<Filter>Plugins\BatchRenderer</Filter>
+		</None >
+		<Filter Include="Plugins\BatchRenderer\Resources">
+			<UniqueIdentifier>{DFB4D901-3C2F-4588-BD25-C4D404BA5D00}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\BatchRenderer\Resources\001SystemAnalysisBold.ttf">
+			<Filter>Plugins\BatchRenderer\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\BatchRenderer\Resources\ButtonIcon_40x.png">
+			<Filter>Plugins\BatchRenderer\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\BatchRenderer\Resources\Icon128.png">
+			<Filter>Plugins\BatchRenderer\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\XMLAsset">
+			<UniqueIdentifier>{8663627E-7CED-4BD0-BC76-D536DF8F865F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\XMLAsset\XMLAsset.uplugin">
+			<Filter>Plugins\XMLAsset</Filter>
+		</None >
+		<Filter Include="Plugins\XMLAsset\Resources">
+			<UniqueIdentifier>{DE19D06D-6587-4F98-A8C7-01E48F263816}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\XMLAsset\Resources\Icon128.png">
+			<Filter>Plugins\XMLAsset\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\XMLAsset\Resources\XMLIcon128x128.png">
+			<Filter>Plugins\XMLAsset\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\XMLAsset\Resources\XMLIcon16x16.png">
+			<Filter>Plugins\XMLAsset\Resources</Filter>
+		</None >
+		<None Include="..\..\Plugins\XMLAsset\Resources\XMLIcon255x255.png">
+			<Filter>Plugins\XMLAsset\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\XMLAsset\Source">
+			<UniqueIdentifier>{DA6571BE-679C-4A13-9370-E8BF596D2488}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\XMLAsset\Source\XMLAsset">
+			<UniqueIdentifier>{DFC6378F-A488-493A-8B58-39D9336642FC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\XMLAsset\Source\XMLAsset\XMLAsset.Build.cs">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset</Filter>
+		</None >
+		<Filter Include="Plugins\XMLAsset\Source\XMLAsset\Private">
+			<UniqueIdentifier>{7B3D6A9B-0E23-4C7A-98D8-4925B024BB18}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\SXMLAssetEditor.cpp">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\SXMLAssetEditor.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAsset.cpp">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetActions.cpp">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetActions.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetEditorSettings.cpp">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetEditorSettings.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetEditorToolkit.cpp">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetEditorToolkit.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetFactory.cpp">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetFactory.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetModule.cpp">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Private\XMLAssetStyle.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\XMLAsset\Source\XMLAsset\Public">
+			<UniqueIdentifier>{67169409-4DBC-481E-B54A-43C7BD2CD792}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Public\XMLAsset.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\XMLAsset\Source\XMLAsset\Public\XMLAssetModule.h">
+			<Filter>Plugins\XMLAsset\Source\XMLAsset\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\MichaelsPluginTest">
+			<UniqueIdentifier>{CCE201D1-5D53-4EF5-A9EF-D5564D453E5B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MichaelsPluginTest\MichaelsPluginTest.Build.cs">
+			<Filter>Source\MichaelsPluginTest</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MichaelsPluginTest\MichaelsPluginTest.cpp">
+			<Filter>Source\MichaelsPluginTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MichaelsPluginTest\MichaelsPluginTest.h">
+			<Filter>Source\MichaelsPluginTest</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MichaelsPluginTest\MichaelsPluginTestGameModeBase.cpp">
+			<Filter>Source\MichaelsPluginTest</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MichaelsPluginTest\MichaelsPluginTestGameModeBase.h">
+			<Filter>Source\MichaelsPluginTest</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

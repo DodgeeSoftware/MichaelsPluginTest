@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{286CDF6F-4160-915E-C964-F3B2CCAE83B7}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MichaelsPluginTest",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "BasicGUI",
+			"Enabled": false
+		},
+		{
+			"Name": "TextAsset",
+			"Enabled": false
+		},
+		{
+			"Name": "AssetTesting",
+			"Enabled": false
+		},
+		{
+			"Name": "BatchRenderer",
+			"Enabled": false
+		}
+	]
+}
